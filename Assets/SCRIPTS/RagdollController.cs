@@ -4,14 +4,23 @@ using System.Collections.Generic;
 
 public class RagdollController : MonoBehaviour
 {
-    SpeedController speedControllerRef;
+    //SpeedController speedControllerRef;
+    PlayerController playerRef;
     Rigidbody rb;
+
+    //For rotating
+    public float rotSmooth = 2.0F;
+    public float rotTiltAngle = 30.0F;
+
+    float smallCollisionForce = 4000f;
+    float finalCollisionForce = 4000f;
 
     List<CharacterJointDisabler> _jointDisablers;
     bool clicked = false;
     private void Awake()
     {
-        speedControllerRef = gameObject.GetComponentInParent<SpeedController>();
+        //speedControllerRef = gameObject.GetComponentInParent<SpeedController>();
+        playerRef = gameObject.GetComponentInParent<PlayerController>();
         CharacterJoint[] characterJoints = transform.GetComponentsInChildren<CharacterJoint>();
         rb = gameObject.GetComponent<Rigidbody>();
 
@@ -27,38 +36,22 @@ public class RagdollController : MonoBehaviour
         }
     }
 
-    void Update()
+    public void SmallCollisionLaunch()
     {
-        //if (Input.GetMouseButton(0))
-        //{
-        //    if (!clicked)
-        //    {
-        //        ActivateRagdoll();
-        //        LaunchAnimal();
-        //        clicked = true;
-        //    }
-
-        //}
-    }
-
-    void OnCollisionEnter(Collision col)
-    {
-        if (col.gameObject.tag == "Obstacle")
-        {
-            Debug.Log("Obstacle Hit");
-            speedControllerRef.HitObject(1);
-            LaunchAnimal();
-            ActivateRagdoll();
-        }
-    }
-
-    void LaunchAnimal()
-    {
-        
-        Vector3 forceDir = new Vector3(0f, 1f, 0f);
-        Vector3 forceAmount = forceDir * 5000f;
+        //Can we get a random dir?
+        Vector3 forceDir = new Vector3(0f, 1f, 1f);
+        Vector3 forceAmount = forceDir * smallCollisionForce;
         rb.AddForce(forceAmount);
-        Debug.Log("Launched at x:" + forceAmount.x + " y:" + forceAmount.y + " z:" + forceAmount.z);
+        //Debug.Log("Launched at x:" + forceAmount.x + " y:" + forceAmount.y + " z:" + forceAmount.z);
+    }
+
+    public void FinalLaunch()
+    {
+        //Can we get a random dir?
+        Vector3 forceDir = new Vector3(0f, 1f, 1f);
+        Vector3 forceAmount = forceDir * finalCollisionForce;
+        rb.AddForce(forceAmount);
+        //Debug.Log("Launched at x:" + forceAmount.x + " y:" + forceAmount.y + " z:" + forceAmount.z);
     }
 
     public void ActivateRagdoll()
@@ -67,12 +60,19 @@ public class RagdollController : MonoBehaviour
 
         for (int i = 0; i < _jointDisablers.Count; ++i)
         {
-            _jointDisablers[i].collider.enabled = true;
-            _jointDisablers[i].rigidbody.isKinematic = false;
+            if (_jointDisablers[i] != null)
+            {
+                _jointDisablers[i].collider.enabled = true;
+                _jointDisablers[i].rigidbody.isKinematic = false;
 
-            _jointDisablers[i].CreateJointAndDestoryThis();
+                _jointDisablers[i].CreateJointAndDestoryThis();
+            }
+            
         }
     }
+
+    //Need a deActivate Ragdoll
+
 }
 
 

@@ -1,0 +1,129 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl _Orange_
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.682353 1.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl FrontColor
+Ka 0.000000 0.000000 0.000000
+Kd 0.882353 0.882353 0.784314
+Ks 0.330000 0.330000 0.330000
+
+newmtl _DarkOrange_
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 0.447059 0.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl _Charcoal_
+Ka 0.000000 0.000000 0.000000
+Kd 0.137255 0.137255 0.137255
+Ks 0.330000 0.330000 0.330000
+
+newmtl _LightGreen_
+Ka 0.000000 0.000000 0.000000
+Kd 0.564706 0.933333 0.564706
+Ks 0.330000 0.330000 0.330000
+d 0.970000
+
+newmtl _Carpet_Blue_
+Ka 0.000000 0.000000 0.000000
+Kd 0.474510 0.396078 0.403922
+Ks 0.330000 0.330000 0.330000
+map_Kd mini_dunx_-_intencity/_Carpet_Blue_.jpg
+
+newmtl _Carpet_Blue_1_
+Ka 0.000000 0.000000 0.000000
+Kd 0.474510 0.396078 0.403922
+Ks 0.330000 0.330000 0.330000
+map_Kd mini_dunx_-_intencity/_Carpet_Blue_1_.jpg
+
+newmtl _StandingSeam_Green_
+Ka 0.000000 0.000000 0.000000
+Kd 0.258824 0.419608 0.274510
+Ks 0.330000 0.330000 0.330000
+map_Kd mini_dunx_-_intencity/_StandingSeam_Green_.jpg
+
+newmtl _Carpet_Blue_2_
+Ka 0.000000 0.000000 0.000000
+Kd 0.474510 0.396078 0.403922
+Ks 0.330000 0.330000 0.330000
+map_Kd mini_dunx_-_intencity/_Carpet_Blue_2_.jpg
+
+newmtl _HotPink_
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 0.411765 0.705882
+Ks 0.330000 0.330000 0.330000
+
+newmtl _DeepSkyBlue_
+Ka 0.000000 0.000000 0.000000
+Kd 0.203922 0.643137 0.788235
+Ks 0.330000 0.330000 0.330000
+
+newmtl _PaleVioletRed_
+Ka 0.000000 0.000000 0.000000
+Kd 0.439216 0.274510 0.411765
+Ks 0.330000 0.330000 0.330000
+
+newmtl _LightSeaGreen_
+Ka 0.000000 0.000000 0.000000
+Kd 0.125490 0.698039 0.666667
+Ks 0.330000 0.330000 0.330000
+d 0.640000
+
+newmtl _Carpet_Blue_3_
+Ka 0.000000 0.000000 0.000000
+Kd 0.474510 0.396078 0.403922
+Ks 0.330000 0.330000 0.330000
+map_Kd mini_dunx_-_intencity/_Carpet_Blue_3_.jpg
+
+newmtl mini_dunxx
+Ka 0.000000 0.000000 0.000000
+Kd 0.392157 0.364706 0.278431
+Ks 0.330000 0.330000 0.330000
+map_Kd mini_dunx_-_intencity/mini_dunxx.jpg
+
+newmtl _Safety_Glass_
+Ka 0.000000 0.000000 0.000000
+Kd 0.901961 0.572549 0.768627
+Ks 0.330000 0.330000 0.330000
+d 0.500000
+map_Kd mini_dunx_-_intencity/_Safety_Glass_.jpg
+
+newmtl _Carpet_Blue_4_
+Ka 0.000000 0.000000 0.000000
+Kd 0.474510 0.396078 0.403922
+Ks 0.330000 0.330000 0.330000
+map_Kd mini_dunx_-_intencity/_Carpet_Blue_4_.jpg
+
+newmtl _White_
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl _Carpet_Blue_5_
+Ka 0.000000 0.000000 0.000000
+Kd 0.474510 0.396078 0.403922
+Ks 0.330000 0.330000 0.330000
+map_Kd mini_dunx_-_intencity/_Carpet_Blue_5_.jpg
+
+newmtl _Carpet_Blue_6_
+Ka 0.000000 0.000000 0.000000
+Kd 0.474510 0.396078 0.403922
+Ks 0.330000 0.330000 0.330000
+map_Kd mini_dunx_-_intencity/_Carpet_Blue_6_.jpg
+
+newmtl _Carpet_Blue_7_
+Ka 0.000000 0.000000 0.000000
+Kd 0.474510 0.396078 0.403922
+Ks 0.330000 0.330000 0.330000
+map_Kd mini_dunx_-_intencity/_Carpet_Blue_7_.jpg
+
+newmtl _Carpet_Blue_8_
+Ka 0.000000 0.000000 0.000000
+Kd 0.474510 0.396078 0.403922
+Ks 0.330000 0.330000 0.330000
+map_Kd mini_dunx_-_intencity/_Carpet_Blue_8_.jpg
+
