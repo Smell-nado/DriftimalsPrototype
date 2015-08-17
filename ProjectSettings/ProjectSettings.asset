@@ -11,8 +11,8 @@ PlayerSettings:
   targetIOSGraphics: -1
   targetResolution: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: PacFall
+  companyName: BNSV
+  productName: Driftimals-Proto
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   defaultScreenWidth: 1024
@@ -68,7 +68,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  iPhoneBundleIdentifier: com.Company.ProductName
+  iPhoneBundleIdentifier: com.BNSV.Driftimals-Proto
   metroEnableIndependentInputSource: 0
   metroEnableLowLatencyPresentationAPI: 0
   productGUID: c474cdec986e1fa459691cd42ae9622b
@@ -117,7 +117,11 @@ PlayerSettings:
   AndroidKeystoreName: 
   AndroidKeyaliasName: 
   resolutionDialogBanner: {fileID: 0}
-  m_BuildTargetIcons: []
+  m_BuildTargetIcons:
+  - m_BuildTarget: 
+    m_Icons:
+    - m_Icon: {fileID: 0}
+      m_Size: 128
   m_BuildTargetBatching: []
   webPlayerTemplate: APPLICATION:Default
   m_TemplateCustomTags: {}
@@ -162,7 +166,8 @@ PlayerSettings:
   psp2PackagedResourcesPath: 
   flashStrippingLevel: 2
   spritePackerPolicy: 
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    2: 
   metroPackageName: PacFall
   metroPackageLogo: 
   metroPackageLogo140: 
@@ -255,7 +260,11 @@ PlayerSettings:
   tizenMicrophonePermissions: 0
   stvDeviceAddress: 
   wp8UnprocessedPlugins: []
-  intPropertyNames: []
+  intPropertyNames:
+  - iOS::Architecture
+  - iOS::ScriptingBackend
+  iOS::Architecture: 2
+  iOS::ScriptingBackend: 0
   firstStreamedLevelWithResources: 0
   unityRebuildLibraryVersion: 9
   unityForwardCompatibleVersion: 39

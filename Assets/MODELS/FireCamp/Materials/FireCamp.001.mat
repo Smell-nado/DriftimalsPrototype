@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: FireCamp.001
+  m_Shader: {fileID: 4800000, guid: 60a76974ae78e4c44bc3719f593347d8, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _AO
+        second:
+          m_Texture: {fileID: 2800000, guid: c197ce9922257a34d92f9516e201a9c3, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffuseMapGloss
+        second:
+          m_Texture: {fileID: 2800000, guid: 2e5587f352b2f5045b36f52ea4dc0e15, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffuseIBL
+        second:
+          m_Texture: {fileID: 8900000, guid: 65da8b63b6f100b498982b2742c705bf, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecularIBL
+        second:
+          m_Texture: {fileID: 8900000, guid: 65da8b63b6f100b498982b2742c705bf, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormaMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 101949d0eb1fd6645b103fb2de03ba56, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _DiffuseFresnel
+        second: 1.96428573
+      data:
+        first:
+          name: _SpecularFresnel
+        second: 1.67142856
+      data:
+        first:
+          name: _IBLStrength
+        second: 0
+      data:
+        first:
+          name: _AmbientVSIBL
+        second: 0
+      data:
+        first:
+          name: _AOIntensity
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .512000024, g: .512000024, b: .512000024, a: 1}
+      data:
+        first:
+          name: _DiffuseColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecularGloss
+        second: {r: .375, g: .375, b: .375, a: 1}
